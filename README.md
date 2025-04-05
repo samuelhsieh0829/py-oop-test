@@ -28,8 +28,8 @@ if __name__ == "__main__":
 
 範例輸出:
 ```
-Module initualized
-Module initualized
+Module initialized
+Module initialized
 Hello 0
 Hello 1
 Hello 0
@@ -56,7 +56,7 @@ Count: 10
 - 此為一個類別
 - 將此類別實例化時，可以接收一個參數並儲存為屬性arg
 - 初始化另一個屬性count為0
-- 透過print出Module initualized表示初始化完成
+- 透過print出Module initialized表示初始化完成
 
 ## moduleA.methodA
 - 此為moduleA中第一個方法
@@ -95,5 +95,3 @@ Count: 10
 - 第一題或許只要用簡單的語法就可以了，根本不用管什麼app.py跟moduleA...?
 - 第二題請使用Python物件導向功能，製作出正確格式的類別moduleA(而非單純使用流程使程式碼AC)
 - 第三題是模擬生產環境應用程式，輸入內容總是不會跟想像中的一樣完美，請檢查好任何變數是否有機會出現意料外的值(非正整數之類的?)，這種東西可以用is_instance()抓出來:O，然後就跟生產環境一樣，在你將程式部屬好前，你都沒辦法知道有可能出什麼問題，沒有測試環境給你除錯(¬‿¬)，所以請盡你所能的寫出你覺得最安全的程式OwO
-
-### 好說真的我其實原本想請大家把它寫成mod.py然後我自己看，但是他們堅持要把這題做成測資題，所以就變成了現在這樣分成三個小題`¯\_(ツ)_/¯`
